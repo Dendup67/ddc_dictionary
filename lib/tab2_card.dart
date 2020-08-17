@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ddc_dictionary/constant.dart';
 
 class Tab2Card extends StatelessWidget {
   @override
@@ -7,14 +8,18 @@ class Tab2Card extends StatelessWidget {
     return Card(
       color: Colors.white,
       shadowColor: Colors.amber[500],
-      child: Center(
+      child: Form(
         child: Column(
+          children: <Widget>[
+            SizedBox(
+              height: 4.0,
+            ),
+            TextFormField(
+                decoration:
+                    textInputDecoration.copyWith(hintText: 'འཚོལ/Search')),
+          ],
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
-          // children: <Widget>[
-          //   Icon(choice.icon, size: 128.0, color: textStyle.color),
-          //   Text(choice.title, style: textStyle),
-          // ],
         ),
       ),
     );

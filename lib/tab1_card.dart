@@ -15,7 +15,14 @@ class Tab1Card extends StatelessWidget {
             height: 5,
           ),
           AppBar(
-            title: Text('སློབ་སྟོན།'),
+            title: Text(
+              'སློབ་སྟོན།',
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w400,
+                fontSize: 16,
+              ),
+            ),
             backgroundColor: Colors.orange[800],
             centerTitle: true,
           )

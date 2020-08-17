@@ -1,47 +1,93 @@
-import 'tab2_card.dart';
 import 'tab1_card.dart';
+import 'tab2_card.dart';
 import 'tab3_card.dart';
 import 'package:flutter/material.dart';
 
-class TabbedAppBarInterface extends StatelessWidget {
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: DefaultTabController(
-        length: 3,
-        child: Scaffold(
-          appBar: AppBar(
-            backgroundColor: Colors.green[700],
-            centerTitle: true,
-            title: const Text(
-              'རྫོང་ཁའི་ཚིག་མརྫོད།',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                letterSpacing: 2,
-              ),
-            ),
-            bottom: TabBar(
-              isScrollable: true,
-              tabs: [
-                Tab(
-                  icon: Icon(Icons.cloud_circle),
-                ),
-                Tab(icon: Icon(Icons.collections_bookmark)),
-                Tab(icon: Icon(Icons.info)),
-              ],
-            ),
-          ),
-          body: TabBarView(children: [
-            (Tab1Card()),
-            (Tab2Card()),
-            (Tab3Card()),
-          ]),
-        ),
+      title: 'Dzongkha Dictionary',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      home: MyHomePage(),
     );
   }
 }
 
-void main() {
-  runApp(TabbedAppBarInterface());
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          elevation: 0,
+          backgroundColor: Colors.green[600],
+          title: Text(
+            'རྫོང་ཁའི་ཚིག་མརྫོད།',
+            style: TextStyle(
+              letterSpacing: 2,
+            ),
+          ),
+          bottom: TabBar(
+            labelColor: Colors.green,
+            indicatorSize: TabBarIndicatorSize.label,
+            unselectedLabelColor: Colors.white,
+            indicator: BoxDecoration(
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20), topRight: Radius.circular(20)),
+              color: Colors.white,
+            ),
+            tabs: <Widget>[
+              Tab(
+                child: Align(
+                    alignment: Alignment.center,
+                    child: Icon(
+                      Icons.cloud_circle,
+                      size: 35,
+                    )),
+              ),
+              Tab(
+                child: Align(
+                    alignment: Alignment.center,
+                    child: Icon(
+                      Icons.search,
+                      size: 35,
+                    )),
+              ),
+              Tab(
+                child: Align(
+                    alignment: Alignment.center,
+                    child: Icon(
+                      Icons.info,
+                      size: 35,
+                    )),
+              ),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: [
+            (Tab1Card()),
+            (Tab2Card()),
+            (Tab3Card()),
+          ],
+        ),
+      ),
+    );
+  }
 }

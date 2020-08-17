@@ -14,11 +14,9 @@ class GuidePage extends StatelessWidget {
           ),
         ),
       ),
-      body: 
-      SizedBox(height: 50,),
-      
-
-      
+      body: SizedBox(
+        height: 50,
+      ),
     );
   }
 }
