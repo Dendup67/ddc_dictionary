@@ -1,7 +1,6 @@
 # DDC Dictionary
 
 <p align="center">
-  <!-- Replace 'logo.png' with your actual logo file path -->
   <img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/ddc-dictionary-logo.avif" alt="DDC Dictionary Logo" width="200"/>
 </p>
 
@@ -11,11 +10,11 @@ DDC Dictionary is a cross-platform mobile application developed using Flutter (D
 
 - [About](#about)
 - [Features](#features)
+- [Tech Stack](#tech)
 - [Screenshots](#screenshots)
 - [Database](#database)
 - [Collaboration](#collaboration)
 - [Deployment](#deployment)
-- [License](#license)
   
 ## About
 
@@ -30,6 +29,15 @@ This project was developed to support the preservation and accessibility of the 
 - ✅ Cleaned, quality-checked linguistic database provided by DDC.
 - 🌍 User-friendly for Dzongkha and English language learners.
 - 📱 Available on both Google Play Store and Apple App Store.
+
+## Tech
+
+![Flutter](https://img.shields.io/badge/-Flutter-%2302569B?style=flat-square&logo=flutter&logoColor=ffffff)
+![Dart](https://img.shields.io/badge/-Dart-%230175C2?style=flat-square&logo=dart&logoColor=ffffff)
+![SQLite](https://img.shields.io/badge/-SQLite-%23003B57?style=flat-square&logo=sqlite&logoColor=ffffff)
+![VS Code](https://img.shields.io/badge/-VS%20Code-%23007ACC?style=flat-square&logo=visualstudiocode&logoColor=ffffff)
+![Swift](https://img.shields.io/badge/-Swift-%23FA7343?style=flat-square&logo=swift&logoColor=ffffff)
+![Xcode](https://img.shields.io/badge/-Xcode-%23147EFB?style=flat-square&logo=xcode&logoColor=ffffff)
 
 ## Screenshots
 <img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4388.jpg" width="200"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4389.jpg" width="200"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4390.jpg" width="200"/>
@@ -47,11 +55,8 @@ This app was developed in collaboration with the Dzongkha Development Commission
 
 The application is available for download on:
 
-- [Google Play Store](#) <!-- Add your actual link -->
-- [Apple App Store](#) <!-- Add your actual link -->
+- [Google Play Store](https://ddc-dictionary.en.softonic.com/android) 
+- [Apple App Store](https://apps.apple.com/au/app/ddc-dictionary/id1555517704) 
 
 
-## License
-
-*Specify your license here (e.g., MIT, Apache 2.0, etc.).*
 
