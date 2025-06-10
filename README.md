@@ -55,8 +55,8 @@ This app was developed in collaboration with the Dzongkha Development Commission
 
 The application is available for download on:
 
-- [Google Play Store](https://ddc-dictionary.en.softonic.com/android) 
-- [Apple App Store](https://apps.apple.com/au/app/ddc-dictionary/id1555517704) 
+- [Android](https://ddc-dictionary.en.softonic.com/android) 
+- [iOS](https://apps.apple.com/au/app/ddc-dictionary/id1555517704) 
 
 
 
