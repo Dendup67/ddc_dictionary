@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Replace 'logo.png' with your actual logo file path -->
-  <img src="logo.png" alt="DDC Dictionary Logo" width="200"/>
+  <img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/ddc-dictionary-logo.avif" alt="DDC Dictionary Logo" width="200"/>
 </p>
 
 DDC Dictionary is a cross-platform mobile application developed using Flutter (Dart), designed to preserve and promote the national language of Bhutan, Dzongkha. Created in collaboration with the Dzongkha Development Commission (DDC), this app enables users to look up meanings, synonyms, and antonyms of words in both English and Dzongkha (Bhutan's National Language).
@@ -32,6 +32,8 @@ This project was developed to support the preservation and accessibility of the 
 - 📱 Available on both Google Play Store and Apple App Store.
 
 ## Screenshots
+[screenshot1](screenshots/[screenshot1.png](https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4388.jpg
+)
 
 <!-- Add screenshots here (e.g., ![screenshot1](screenshots/screenshot1.png)) -->
 
