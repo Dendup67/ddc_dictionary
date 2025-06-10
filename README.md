@@ -32,10 +32,8 @@ This project was developed to support the preservation and accessibility of the 
 - 📱 Available on both Google Play Store and Apple App Store.
 
 ## Screenshots
-[screenshot1](screenshots/[screenshot1.png](https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4388.jpg
-)
+<img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4388.jpg" width="200"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4389.jpg" width="200"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/Dendup67/ddc_dictionary/blob/master/assets/IMG_4390.jpg" width="200"/>
 
-<!-- Add screenshots here (e.g., ![screenshot1](screenshots/screenshot1.png)) -->
 
 ## Database
 
